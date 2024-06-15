@@ -3,3 +3,12 @@ alpine
 python:alpine3.19
 --platform linux/arm64 kasmweb/nginx:1.25.3
 --platform linux/arm64 cooderl/wewe-rss-sqlite:latest
+--platform linux/amd64 susanandrews/abap-platform-trial
+homeassistant/home-assistant
+homeassistant/home-assistant-cli
+stilleshan/speedtest-x
+badapple9/speedtest-x
+metacubex/clash-meta
+dreamacro/clash
+dreamacro/clash-premium
+mikolatero/vlmcsd
