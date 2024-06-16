@@ -1,16 +1,6 @@
-alpine
---platform linux/arm64 nginx:alpine-slim
-python:alpine3.19
---platform linux/arm64 kasmweb/nginx:1.25.3
---platform linux/arm64 cooderl/wewe-rss-sqlite:latest
-homeassistant/home-assistant
-homeassistant/home-assistant-cli
-stilleshan/speedtest-x
-badapple9/speedtest-x
-metacubex/clash-meta
-dreamacro/clash
-dreamacro/clash-premium
-mikolatero/vlmcsd
-mogeko/vlmcsd
---platform linux/amd64 bijojoy/abap-platform-trial:1909
---platform linux/amd64 susanandrews/abap-platform-trial:1909
+--platform linux/arm64 badapple9/speedtest-x:latest
+--platform linux/arm64 mikolatero/vlmcsd:latest
+--platform linux/arm64 metacubex/clash-meta:Alpha
+--platform linux/arm64 metacubex/clash-meta:pr-837
+--platform linux/arm64 dreamacro/clash:dev
+--platform linux/arm64 dreamacro/clash:v1.18.0
