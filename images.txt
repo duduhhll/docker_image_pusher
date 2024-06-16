@@ -3,7 +3,6 @@ alpine
 python:alpine3.19
 --platform linux/arm64 kasmweb/nginx:1.25.3
 --platform linux/arm64 cooderl/wewe-rss-sqlite:latest
---platform linux/amd64 susanandrews/abap-platform-trial
 homeassistant/home-assistant
 homeassistant/home-assistant-cli
 stilleshan/speedtest-x
@@ -12,3 +11,6 @@ metacubex/clash-meta
 dreamacro/clash
 dreamacro/clash-premium
 mikolatero/vlmcsd
+mogeko/vlmcsd
+--platform linux/amd64 bijojoy/abap-platform-trial:1909
+--platform linux/amd64 susanandrews/abap-platform-trial:1909
